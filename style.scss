@@ -1,0 +1,136 @@
+$col:#5D5D5D;
+
+html, body, h1 {
+	margin: 0;
+	padding: 0;
+}
+.cite {
+	color:  orange;
+}	
+
+a {
+	color: #8F6A2B;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+img {
+	width: 359px;
+	height: 281px;
+	top: 204px;
+    padding: 10px; /* Поля вокруг текста */
+}
+body {
+	background: url(images/bg.jpg) repeat-x;
+	text-align: center;
+	font: 11px arial, sans-serif;
+	color: $col;
+	
+}
+
+
+h1 {
+	position: absolute;
+	background: url(images/header.jpg) no-repeat;
+	width: 259px;
+	height: 204px;
+	top: 0;
+	left: 0;
+	text-align: center;
+	padding-top: 80px;
+	color: white;
+	font: 32px "Lucida Handwriting", "Lucida Calligraphy", verdana, arial, sans-serif;
+}
+#wrapper {
+	text-align: left;
+	margin: auto;
+	width: 686px;
+	position: relative;
+}
+#portret {
+	position: absolute;
+	background: url(images/portret.jpg) no-repeat;
+	width: 259px;
+	height: 381px;
+	top: 204px;
+	left: 0px;
+	z-index: 1;
+}
+#nav {
+	width: 259px;
+	position: absolute;
+	top: 585px;
+	left: 0;
+	background: url(images/nav_bg.jpg) repeat-y;
+}
+ul {
+	margin: 0;
+	padding: 7px 0 5px 2px;
+	font: 40px "Times new roman", "Lucida Grande", serif;
+
+	
+	
+}
+#nav li {
+	margin: 11px;
+	padding: 0 0 0 40px;
+	list-style: none;
+	background: top left url(images/bullet_white.gif) no-repeat;
+}
+
+
+#body {
+	position: absolute;
+	width: 427px;
+	top: 0;
+	left: 259px;
+	background: white;
+	overflow: hidden;
+}
+
+
+
+
+#body h2 {
+	font: 18px;
+	font-weight: normal;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 22px;
+}
+
+
+
+#body p {
+	margin: 5px;
+	text-align: justify;
+	padding: 5px;
+	text-indent: 1.5em;
+}
+#body h3 {
+
+	font-weight: normal;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 18px;
+}
+@@media handheld and (max-width: 15em) {
+     body { font-size: 2em; }
+	}
+.col {
+    background-color: chocolate;
+    color: #fff;
+	text-align: center;
+	font-size: 42px;
+    }
+
+.col-md-12 {
+    background-color: blueviolet;
+    color: #fff;
+	font-size: 42px;
+	text-align: center;
+    }
+.container {
+	width: 359px;
+	margin-top: 80%;
+	}
