@@ -21,7 +21,7 @@ img {
     padding: 10px; /* Поля вокруг текста */
 }
 body {
-	background: url(images/bg.jpg) repeat-x;
+	background: url(bg.jpg) repeat-x;
 	text-align: center;
 	font: 11px arial, sans-serif;
 	color: $col;
@@ -31,7 +31,7 @@ body {
 
 h1 {
 	position: absolute;
-	background: url(images/header.jpg) no-repeat;
+	background: url(header.jpg) no-repeat;
 	width: 259px;
 	height: 204px;
 	top: 0;
@@ -49,7 +49,7 @@ h1 {
 }
 #portret {
 	position: absolute;
-	background: url(images/portret.jpg) no-repeat;
+	background: url(portret.jpg) no-repeat;
 	width: 259px;
 	height: 381px;
 	top: 204px;
@@ -61,7 +61,7 @@ h1 {
 	position: absolute;
 	top: 585px;
 	left: 0;
-	background: url(images/nav_bg.jpg) repeat-y;
+	background: url(nav_bg.jpg) repeat-y;
 }
 ul {
 	margin: 0;
@@ -75,7 +75,7 @@ ul {
 	margin: 11px;
 	padding: 0 0 0 40px;
 	list-style: none;
-	background: top left url(images/bullet_white.gif) no-repeat;
+	background: top left url(bullet_white.gif) no-repeat;
 }
 
 
